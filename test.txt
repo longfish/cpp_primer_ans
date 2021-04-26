@@ -1,4 +1,0 @@
-This is a test file.
-Add a new line.
-
-Okay, I will add this new line.
