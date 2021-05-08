@@ -12,7 +12,16 @@ int main()
 
     // ex28
     // int i, *const cp;
-    const int *p;
+    // const int *p;
+
+    // ex32
+    // int null = 0, *p = 0;
+
+    int x = 3, y = 5;
+    int const *p = &x;
+    std::cout << *p << std::endl;
+    p = &y;
+    std::cout << *p << std::endl;
 
     return 0;
 }
